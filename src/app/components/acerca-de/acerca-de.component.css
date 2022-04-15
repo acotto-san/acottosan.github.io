@@ -1,0 +1,19 @@
+.grid-container-acercaDe {
+    display: grid;
+    grid-template-rows: 30rem auto;
+    grid-template-areas:
+    'banner'
+    'datos';
+
+}
+
+.grid-item-banner {
+    grid-area: banner;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.grid-item-datos-personales {
+    grid-area: datos;
+}
